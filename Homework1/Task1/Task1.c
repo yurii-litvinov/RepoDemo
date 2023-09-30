@@ -1,6 +1,8 @@
-п»ї#include <stdio.h>
+#include <stdio.h>
+#include <locale.h>
 
 int main()
 {
-    printf("Hello World!\n");
+    setlocale(LC_ALL, "Ru.866");
+    printf("Привет, мир!");
 }
